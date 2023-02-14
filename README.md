@@ -24,3 +24,7 @@ Además, determine el valor óptimo de lambda para la regresión de Ridge y Lass
 ### Objetivo del Negocio:
   
 Debe modelar el precio de las casas con las variables independientes disponibles. Luego, la gerencia utilizará este modelo para comprender cómo varían exactamente los precios con las variables. En consecuencia, pueden manipular la estrategia de la empresa y concentrarse en áreas que generarán altos rendimientos. Además, el modelo será una buena manera para que la gerencia entienda la dinámica de precios de un nuevo mercado.
+
+  ### Prerequisites
+  
+  Python 3.x
