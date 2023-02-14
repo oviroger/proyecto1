@@ -3,8 +3,9 @@
 ## Regresion Avanzada
 
 ![A screenshot of the PyCalc interface](house-prices.avif)
-##Introduccion
-###Integrates de Grupo:
+## Introduccion
+  
+### Integrates de Grupo:
 * José Estensoro (josee906@gmail.com)
 * Roger Patón (oviroger@gmail.com)
 
