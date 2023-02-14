@@ -25,6 +25,17 @@ Además, determine el valor óptimo de lambda para la regresión de Ridge y Lass
   
 Debe modelar el precio de las casas con las variables independientes disponibles. Luego, la gerencia utilizará este modelo para comprender cómo varían exactamente los precios con las variables. En consecuencia, pueden manipular la estrategia de la empresa y concentrarse en áreas que generarán altos rendimientos. Además, el modelo será una buena manera para que la gerencia entienda la dinámica de precios de un nuevo mercado.
 
-  ### Prerequisites
+  ### Prerrequisitos
   
   Python 3.x
+
+  ### Librerias
+  import os
+import numpy as np 
+import pandas as pd 
+from scipy import stats
+
+import matplotlib.pyplot as plt 
+import seaborn as sns
+
+from google.colab import drive
