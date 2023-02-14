@@ -29,13 +29,43 @@ Debe modelar el precio de las casas con las variables independientes disponibles
   
   Python 3.x
 
-  ### Librerias
+  ### Librerias para el análisis
   import os
-import numpy as np 
-import pandas as pd 
-from scipy import stats
-
-import matplotlib.pyplot as plt 
-import seaborn as sns
-
-from google.colab import drive
+  
+  import numpy as np 
+  
+  import pandas as pd 
+  
+  from scipy import stats
+  
+  import matplotlib.pyplot as plt 
+  
+  import seaborn as sns
+  
+  from google.colab import drive
+  
+  from scipy.stats import kendalltau
+  
+  ### Librerias para el modelado
+  
+  from sklearn.model_selection import KFold, cross_val_score
+  
+  from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
+  
+  from sklearn.metrics import mean_squared_error
+  
+  from sklearn.preprocessing import RobustScaler
+  
+  from sklearn.pipeline import make_pipeline
+  
+  from sklearn.metrics import accuracy_score
+  
+  from sklearn.linear_model import Lasso
+  
+  from sklearn.linear_model import Ridge
+  
+  from sklearn.metrics import r2_score
+  
+  from sklearn.linear_model import LassoCV
+  
+  from sklearn.model_selection import GridSearchCV
